@@ -23,3 +23,14 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Next.js
+.next/
+out/
+
+# Build outputs
+dist/
+*.tsbuildinfo
+
+# Generated
+**/content-generated/
