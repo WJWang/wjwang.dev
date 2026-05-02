@@ -1,0 +1,8 @@
+title: 用 LLM 驅動的內容轉換 pipeline
+excerpt: 把 Markdown 原稿交給 LLM，讓它輸出結構化 TSX——這就是 wjwang.dev 的內容 pipeline。本文剖析這個 meta 架構：prompt 設計、元件驗證、到 Next.js 建置整合。
+date: 2026-03-30
+tags:
+  - LLM
+  - Architecture
+  - DX
+category: Architecture

@@ -25,6 +25,6 @@ describe('renderManifest', () => {
   it('emits dynamic import for each slug', () => {
     const out = renderManifest(items);
     expect(out).toContain("'foo':");
-    expect(out).toContain("../../../content/articles/foo/content.tsx");
+    expect(out).toContain("../../../content/articles/foo/content'");
   });
 });
