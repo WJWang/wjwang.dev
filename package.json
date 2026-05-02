@@ -18,6 +18,9 @@
     "typecheck": "pnpm -r typecheck",
     "test": "pnpm -r test"
   },
+  "dependencies": {
+    "@wjwang/ui": "workspace:*"
+  },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",

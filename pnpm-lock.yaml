@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@wjwang/ui':
+        specifier: workspace:*
+        version: link:packages/ui
     devDependencies:
       '@testing-library/jest-dom':
         specifier: ^6.9.1
@@ -68,6 +72,9 @@ importers:
       fuse.js:
         specifier: ^7.0.0
         version: 7.3.0
+      lucide-react:
+        specifier: ^0.487.0
+        version: 0.487.0(react@19.2.5)
       next:
         specifier: ^15.0.0
         version: 15.5.15(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
