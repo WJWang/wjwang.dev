@@ -8,3 +8,4 @@ export * from './Aside';
 export * from './Comparison';
 export * from './ArticleCard';
 export * from './ArticleHero';
+export * from './ArticleLayout';
