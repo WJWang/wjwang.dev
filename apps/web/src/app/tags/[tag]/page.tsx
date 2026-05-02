@@ -10,7 +10,6 @@ interface PageProps {
 
 export const dynamicParams = false;
 export const dynamic = 'force-static';
-export const revalidate = 0; // bypass Next 15.5 empty-params quirk (same as articles/[slug])
 
 export function generateStaticParams() {
   return allTags().map((t) => ({ tag: encodeURIComponent(t.tag) }));

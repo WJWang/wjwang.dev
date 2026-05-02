@@ -10,7 +10,6 @@ interface PageProps {
 }
 
 export const dynamicParams = false;
-export const revalidate = 0;
 
 export async function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
