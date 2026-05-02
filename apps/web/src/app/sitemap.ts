@@ -3,6 +3,8 @@ import type { MetadataRoute } from 'next';
 import { articles, allTags, lastUpdated } from '@/lib/articles';
 import { SITE } from '@/lib/site-config';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const homeLast = lastUpdated() ?? new Date().toISOString().slice(0, 10);
 
