@@ -1,0 +1,8 @@
+title: Redux 與資料狀態管理
+excerpt: 從 jQuery 時代到 Angular、React，梳理前端狀態管理的演進脈絡：Flux 的單向資料流、Redux 的可預測性，以及何時真的需要 Redux。
+date: 2018-12-21
+tags:
+  - Redux
+  - Frontend
+  - Architecture
+category: Frontend

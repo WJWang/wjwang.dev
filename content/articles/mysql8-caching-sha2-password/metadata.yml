@@ -1,0 +1,7 @@
+title: mysql8.0 caching_sha2_password image not found
+excerpt: MySQL 8.0 預設使用 caching_sha2_password 加密，導致 Workbench、Sequel Pro 等舊版客戶端無法連線，透過 ALTER USER 改回 mysql_native_password 即可解決。
+date: 2018-07-26
+tags:
+  - Database
+  - MySQL
+category: Database

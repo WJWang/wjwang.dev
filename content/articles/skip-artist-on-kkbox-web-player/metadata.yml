@@ -1,0 +1,7 @@
+title: 在 KKBOX Web Player 跳過特定藝人的歌曲
+excerpt: 自製 workaround script，讓 KKBOX Web Player 在播到黑名單藝人時自動跳過，只需在 DevTools console 貼上程式碼並設定藝人 ID 即可生效。
+date: 2019-03-22
+tags:
+  - Frontend
+  - JavaScript
+category: Frontend

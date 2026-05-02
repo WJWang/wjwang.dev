@@ -1,0 +1,7 @@
+title: 關於前端的無聊事
+excerpt: 前端開發中偶然發現的零散知識：document.designMode、rc 命名由來、iOS Safari input 樣式重置，以及用 getBoundingClientRect 判斷滑鼠是否在元素內。
+date: 2018-08-09
+tags:
+  - Frontend
+  - JavaScript
+category: Frontend

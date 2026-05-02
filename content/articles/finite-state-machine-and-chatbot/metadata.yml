@@ -1,0 +1,7 @@
+title: Finite State Machine 與 chatbot 開發
+excerpt: 從簡單指令機器人到多用戶 Messenger Bot，說明對話狀態追蹤的挑戰，以及如何引入 FSM（有限狀態機）與 javascript-state-machine 建模複雜對話流程。
+date: 2018-07-10
+tags:
+  - Backend
+  - Architecture
+category: Backend

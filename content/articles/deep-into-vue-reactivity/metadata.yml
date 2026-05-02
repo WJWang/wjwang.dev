@@ -1,0 +1,8 @@
+title: Deep into Vue：Reactivity 的實現
+excerpt: 深入分析 Vue 2 的 Reactivity 實現原理，從 Observer、defineReactive、Dep 到 Watcher，揭開資料響應式背後的 Observer 設計模式與相依性收集機制。
+date: 2020-12-02
+tags:
+  - Vue
+  - Frontend
+  - Architecture
+category: Frontend
