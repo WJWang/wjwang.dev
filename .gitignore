@@ -11,6 +11,9 @@ pnpm-debug.log*
 # Reference materials (kept locally for migration; not version-controlled)
 reference/
 
+# Git worktrees
+.worktrees/
+
 # OS
 .DS_Store
 Thumbs.db
