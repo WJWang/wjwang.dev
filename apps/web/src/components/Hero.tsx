@@ -139,7 +139,7 @@ export function Hero() {
               {SITE.name}
             </h1>
             <p className="text-base md:text-xl text-muted-foreground">
-              {SITE.description}
+              {SITE.tagline}
             </p>
           </div>
         </div>

@@ -5,6 +5,7 @@ export const SITE = {
   domain: 'wjwang.dev',
   url: 'https://wjwang.dev',
   description: 'WJWang 的技術部落格',
+  tagline: 'Software Engineer · 技術探索與實踐',
   copyright: '© 2026 WJWang. All rights reserved.',
   author: {
     name: 'WJWang',
