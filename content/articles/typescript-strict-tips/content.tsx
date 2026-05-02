@@ -8,7 +8,6 @@ import {
 export default function Content() {
   return (
     <Prose>
-      <h1>5 個 TypeScript Strict Mode 你該打開的 flag</h1>
       <p>
         開啟 <code>strict: true</code> 是好的開始，但 TypeScript 還有幾個預設關閉的進階 flag，
         能讓型別系統更準確地反映程式的實際行為，在編譯期抓到更多執行期才會爆的 bug。

@@ -9,7 +9,6 @@ import {
 export default function Content() {
   return (
     <Prose>
-      <h1>Next.js Static Export 的 SEO 完整實戰</h1>
       <p>
         Next.js 的 <code>output: 'export'</code> 讓你把整個應用程式輸出為純靜態 HTML，
         部署到 GitHub Pages、Cloudflare Pages、S3 等任何 CDN。代價是失去 Server Actions、

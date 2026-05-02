@@ -8,7 +8,6 @@ import {
 export default function Content() {
   return (
     <Prose>
-      <h1>pnpm Monorepo 實戰：從零搭建到 CI 部署</h1>
       <p>
         pnpm workspace 是目前最嚴格、最省空間的 monorepo 套件管理方案。相較於 npm/yarn workspaces，
         pnpm 的 symlink 策略能有效防止幽靈依賴（phantom dependencies），讓每個套件只能存取自己宣告的依賴。

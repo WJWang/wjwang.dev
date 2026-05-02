@@ -1,3 +1,10 @@
 @import 'tailwindcss';
+
+/* Tailwind v4 auto-detection skips workspace symlinks in node_modules.
+   Explicitly include @wjwang/ui sources and content/articles so classes
+   used there get scanned and emitted into the CSS bundle. */
+@source "../../../../packages/ui/src/**/*.{ts,tsx}";
+@source "../../../../content/articles/**/*.tsx";
+
 @import '@wjwang/ui/styles/theme.css';
 @import '@wjwang/ui/styles/fonts.css';

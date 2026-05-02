@@ -8,7 +8,6 @@ import {
 export default function Content() {
   return (
     <Prose>
-      <h1>Tailwind v4 在 Monorepo 裡的 3 個踩雷</h1>
       <p>
         Tailwind CSS v4 帶來了重大架構改變：從 <code>tailwind.config.js</code> 遷移到 CSS-first 設定，
         用 <code>@import tailwindcss</code> 和 <code>@theme</code> 指令替代 JavaScript 設定。

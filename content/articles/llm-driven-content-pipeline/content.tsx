@@ -9,7 +9,6 @@ import {
 export default function Content() {
   return (
     <Prose>
-      <h1>用 LLM 驅動的內容轉換 pipeline</h1>
       <p>
         wjwang.dev 的文章不使用傳統 MDX。取而代之的是一個 LLM 驅動的轉換 pipeline：
         作者用 Markdown 寫原稿，把原稿交給 LLM，搭配精心設計的 prompt，

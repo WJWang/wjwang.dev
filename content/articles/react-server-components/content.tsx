@@ -8,7 +8,6 @@ import {
 export default function Content() {
   return (
     <Prose>
-      <h1>深入理解 React Server Components</h1>
       <p>
         React Server Components（RSC）是 React 18 引入的全新架構，允許元件在伺服器端執行並將結果
         序列化傳送給客戶端。與 SSR 不同，RSC 不只是在伺服器渲染 HTML 再 hydrate，而是讓伺服器端元件
