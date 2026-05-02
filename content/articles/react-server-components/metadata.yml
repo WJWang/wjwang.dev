@@ -1,9 +1,0 @@
-title: 深入理解 React Server Components
-excerpt: RSC 不只是「在伺服器跑的 React」，它重新定義了元件樹的邊界：哪些部分永遠在伺服器、哪些在客戶端。本文從架構、資料取得到 bundle 影響，帶你全面理解 RSC 如何讓零 JS 成為可能。
-date: 2026-04-28
-tags:
-  - React
-  - Frontend
-  - Performance
-category: Frontend
-featured: true

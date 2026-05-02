@@ -1,8 +1,0 @@
-title: Tailwind v4 在 Monorepo 裡的 3 個踩雷
-excerpt: Tailwind v4 改用 CSS-first 設定，在 monorepo 中帶來三個新陷阱：content scan 路徑失效、@theme 指令的 PostCSS 限制、以及 preset 與 CSS config 的分裂。每個都可能讓你的 class 神秘消失。
-date: 2026-03-22
-tags:
-  - Tailwind
-  - Monorepo
-  - DX
-category: Frontend

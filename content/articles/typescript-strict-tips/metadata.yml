@@ -1,7 +1,0 @@
-title: 5 個 TypeScript Strict Mode 你該打開的 flag
-excerpt: tsconfig 的 strict 只是起點。noUncheckedIndexedAccess、exactOptionalPropertyTypes 等進階 flag 能讓型別系統更貼近程式的實際行為，幫你在編譯期抓到更多執行期才會出現的 bug。
-date: 2026-04-15
-tags:
-  - TypeScript
-  - Best Practices
-category: Frontend

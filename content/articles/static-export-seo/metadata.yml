@@ -1,8 +1,0 @@
-title: Next.js Static Export 的 SEO 完整實戰
-excerpt: Next.js output:'export' 產生純靜態 HTML，可部署到任何 CDN，但 SEO 設定需要特別注意：sitemap、robots.txt、JSON-LD、Open Graph 全靠建置期生成。本文帶你一次搞定。
-date: 2026-04-08
-tags:
-  - Next.js
-  - SEO
-  - Performance
-category: Frontend
