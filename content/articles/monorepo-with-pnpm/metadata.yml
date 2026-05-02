@@ -1,0 +1,8 @@
+title: pnpm Monorepo 實戰：從零搭建到 CI 部署
+excerpt: pnpm workspace 搭配嚴格的 hoisting 策略，讓 monorepo 的套件隔離更可靠。本文從 pnpm-workspace.yaml 設定、workspace 依賴管理，到 GitHub Actions CI pipeline，一步步帶你完成生產級 monorepo。
+date: 2026-04-22
+tags:
+  - Monorepo
+  - pnpm
+  - DevOps
+category: DevOps

@@ -21,7 +21,7 @@ export function renderManifest(items: ArticleListItem[]): string {
   const loaderLines = items
     .map(
       (item) =>
-        `  '${item.slug}': () => import('../../../content/articles/${item.slug}/content.tsx'),`,
+        `  '${item.slug}': () => import('../../../content/articles/${item.slug}/content'),`,
     )
     .join('\n');
 
