@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import type { ArticleListItem } from '../types/article';
 import { ArticleHero } from './ArticleHero';
+import { GeometricBackground } from '../components/GeometricBackground';
 
 export interface ArticleLayoutProps {
   meta: ArticleListItem;
@@ -11,6 +12,7 @@ export interface ArticleLayoutProps {
 export function ArticleLayout({ meta, related, children }: ArticleLayoutProps) {
   return (
     <div className="min-h-screen relative">
+      <GeometricBackground />
       <ArticleHero meta={meta} />
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-20">
