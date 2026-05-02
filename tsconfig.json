@@ -1,12 +1,7 @@
 {
-  "extends": "./tsconfig.base.json",
-  "compilerOptions": {
-    "noEmit": true
-  },
-  "include": [
-    "vitest.setup.ts",
-    "vitest.config.ts",
-    "packages/ui/src/**/*",
-    "apps/web/src/**/*"
+  "files": [],
+  "references": [
+    { "path": "./packages/ui" },
+    { "path": "./apps/web" }
   ]
 }
