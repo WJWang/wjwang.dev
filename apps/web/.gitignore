@@ -1,0 +1,11 @@
+# Mirrored article assets (originals in content/articles/{slug}/assets/)
+public/articles/
+
+# Mirrored CNAME (source is repo-root /CNAME)
+public/CNAME
+
+# Generated RSS
+public/rss.xml
+
+# Generated search index (browser-fetched)
+public/search-index.generated.json

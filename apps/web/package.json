@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev":       "next dev",
+    "prebuild":  "pnpm -w build:articles",
     "build":     "next build",
     "start":     "next start",
     "lint":      "next lint",
@@ -16,7 +17,8 @@
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "fuse.js": "^7.0.0"
+    "fuse.js": "^7.0.0",
+    "lucide-react": "^0.487.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
