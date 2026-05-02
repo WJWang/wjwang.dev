@@ -6,3 +6,4 @@ export * from './KeyTakeaways';
 export * from './Quote';
 export * from './Aside';
 export * from './Comparison';
+export * from './ArticleCard';
