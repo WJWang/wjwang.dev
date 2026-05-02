@@ -1,0 +1,8 @@
+title: CI 工具鏈 with Docker (3) — 安裝 Jenkins
+excerpt: 以 Docker 安裝 Jenkins CI，包含取得初始密碼、安裝建議外掛、設定 Docker Builder、SSH 金鑰配置、Publish over SSH 及 Gitlab Hook Plugin 的完整步驟。
+date: 2017-06-21
+tags:
+  - Docker
+  - Jenkins
+  - CI
+category: DevOps

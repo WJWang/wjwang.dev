@@ -1,0 +1,7 @@
+title: Screen / tmux Memo
+excerpt: Screen 與 tmux 常用指令備忘：建立、離開、重新連線 session，以及 tmux 的視窗分割、縮放、捲動操作快速查閱表。
+date: 2017-06-21
+tags:
+  - Shell
+  - Linux
+category: DevOps

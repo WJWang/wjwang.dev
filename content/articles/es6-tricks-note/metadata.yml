@@ -1,0 +1,7 @@
+title: ES6 Tricks Note
+excerpt: 快速整理 ES6 實用技巧：解構交換、Async/Await 搭配 Promise.all、展開運算子 clone 物件與陣列、具名參數等常見模式的簡潔寫法。
+date: 2017-12-04
+tags:
+  - JavaScript
+  - ES6
+category: Frontend

@@ -1,0 +1,8 @@
+title: Find the Median Word
+excerpt: 以兩個串接的 MapReduce Job 計算文字中出現次數居中位數的單字。第一個 Job 統計詞頻，第二個 Job 交換 key/value 後按頻次分群，附完整 Java 實作。
+date: 2017-06-21
+tags:
+  - Hadoop
+  - MapReduce
+  - Java
+category: Backend

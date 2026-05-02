@@ -1,0 +1,7 @@
+title: Node.js File Upload to S3
+excerpt: 介紹如何用 Node.js 直接上傳檔案到 Amazon S3，支援從 BLOB 直接上傳與從 URI 串流上傳兩種方式，不需寫入本地磁碟。
+date: 2018-01-18
+tags:
+  - NodeJS
+  - AWS
+category: Backend

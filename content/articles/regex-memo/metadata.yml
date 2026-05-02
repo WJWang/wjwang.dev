@@ -1,0 +1,7 @@
+title: Regex Memo
+excerpt: 正規表達式快速備忘：字元類別、量詞、錨點、分組概念說明，以及 JavaScript replace 搭配 group 參考的實際範例。
+date: 2017-06-21
+tags:
+  - Regex
+  - JavaScript
+category: Frontend

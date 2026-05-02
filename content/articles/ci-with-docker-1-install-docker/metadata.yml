@@ -1,0 +1,8 @@
+title: CI 工具鏈 with Docker (1) — 安裝 Docker
+excerpt: 在 Ubuntu 14.04 上安裝 Docker Engine 並啟用 REST API，接著安裝 DockerUI 監控工具，並以 Apache2 反向代理加上密碼保護，作為 CI 工具鏈系列第一篇。
+date: 2017-06-21
+tags:
+  - Docker
+  - DevOps
+  - CI
+category: DevOps

@@ -1,0 +1,8 @@
+title: PHP macOS Version Control via Homebrew
+excerpt: 介紹如何在 macOS 透過 Homebrew 安裝並切換不同版本的 PHP，包含 brew unlink / link 的操作步驟與 brew services 管理 PHP 程序的方式。
+date: 2017-07-29
+tags:
+  - PHP
+  - macOS
+  - Homebrew
+category: DevOps

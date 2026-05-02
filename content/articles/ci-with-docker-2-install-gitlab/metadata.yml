@@ -1,0 +1,8 @@
+title: CI 工具鏈 with Docker (2) — 安裝 GitLab
+excerpt: 以 Docker 安裝 GitLab，包含產生 Secret DB Key、啟動 PostgreSQL 與 Redis 容器、安裝 GitLab 容器，並說明新使用者帳號啟用流程。
+date: 2017-06-21
+tags:
+  - Docker
+  - GitLab
+  - CI
+category: DevOps

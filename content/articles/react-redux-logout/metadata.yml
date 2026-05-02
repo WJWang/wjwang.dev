@@ -1,0 +1,7 @@
+title: React/Redux 關於登出
+excerpt: 在 React Redux SPA 中，登出操作等同於將 store state 重置回初始值。介紹以 root reducer wrapper 攔截 LOGOUT action，清除 localStorage token 並重置所有 reducer 的實作方式。
+date: 2017-09-20
+tags:
+  - React
+  - Redux
+category: Frontend

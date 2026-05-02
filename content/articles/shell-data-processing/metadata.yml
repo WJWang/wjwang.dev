@@ -1,0 +1,7 @@
+title: 使用 Shell 進行資料處理
+excerpt: 整理 Shell 資料處理常用指令備忘，包含 grep、awk、sed、cut、sort、xargs、rsync、scp 等工具，以及 MySQL/PostgreSQL 整合與 SSH 遠端操作範例。
+date: 2017-12-06
+tags:
+  - Shell
+  - Linux
+category: DevOps

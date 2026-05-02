@@ -1,0 +1,7 @@
+title: Create a Simple Graffiti Board with Vue.js
+excerpt: 以 Vue.js 搭配 Canvas API 實作簡易塗鴉板元件，支援行動裝置與桌面觸控，並可將繪製結果存成圖檔。
+date: 2018-04-01
+tags:
+  - Vue
+  - Canvas
+category: Frontend

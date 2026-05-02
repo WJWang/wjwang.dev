@@ -1,0 +1,8 @@
+title: First Handmade MapReduce Example
+excerpt: 手刻 MapReduce WordCount 程式，改良標點符號過濾邏輯。以 Eclipse + Maven 建置 Hadoop 2.6.0 專案，包含完整 Java 實作程式碼。
+date: 2017-06-21
+tags:
+  - Hadoop
+  - MapReduce
+  - Java
+category: Backend

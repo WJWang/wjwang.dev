@@ -1,0 +1,7 @@
+title: Run MapReduce WordCount Example
+excerpt: 在已安裝好的 Hadoop 環境上跑官方 WordCount 範例，包含準備輸入檔案、建立 HDFS 目錄、複製檔案到 HDFS、執行 mapreduce-examples.jar 的完整步驟。
+date: 2017-06-21
+tags:
+  - Hadoop
+  - MapReduce
+category: Backend

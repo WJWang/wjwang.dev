@@ -1,0 +1,7 @@
+title: From JIT to BinJS / WebAssembly
+excerpt: 整理從 JIT 編譯器到 BinJS 與 WebAssembly 的概念脈絡，附上 JavaScript 引擎運作原理、lazy parsing 及 assembly 速成資源連結。
+date: 2017-10-24
+tags:
+  - JavaScript
+  - WebAssembly
+category: Frontend

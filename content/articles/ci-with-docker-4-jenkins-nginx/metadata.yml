@@ -1,0 +1,8 @@
+title: CI 工具鏈 with Docker (4) — Bootstrap Jenkins 靜態網站 nginx
+excerpt: 以 Jenkins + Docker + Nginx 建立靜態前端專案的 CI/CD 流程，包含 GitLab webhook 設定、nvm wrapper 指定 Node.js 版本、npm build 指令與 Publish Over SSH 部署。
+date: 2017-06-21
+tags:
+  - Jenkins
+  - Nginx
+  - CI
+category: DevOps

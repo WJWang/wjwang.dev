@@ -1,0 +1,7 @@
+title: Set a Fixed Center Marker in Google Map
+excerpt: 介紹如何在 Google Map 上實作固定置中的標記，以 overlay div 取代動態計算座標的方式，改善行動裝置的定位體驗，附 Vue component 範例。
+date: 2018-04-01
+tags:
+  - Vue
+  - GoogleMaps
+category: Frontend
