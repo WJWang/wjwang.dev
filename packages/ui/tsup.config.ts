@@ -1,12 +1,12 @@
 import { defineConfig } from 'tsup';
 
 export default defineConfig([
-  // Client components — needs "use client" directive preserved in output
+  // Bundles containing client components (hooks / Radix interactivity) — banner required
+  // because tsup/esbuild strips source-level 'use client' during bundling
   {
     entry: {
-      'components/index': 'src/components/index.ts',
-      'article/index':    'src/article/index.ts',
-      'primitives/index': 'src/primitives/index.ts',
+      'components/index': 'src/components/index.ts',  // SiteHeader uses useState
+      'primitives/index': 'src/primitives/index.ts',  // Radix UI components use hooks internally
     },
     format: ['esm'],
     dts: true,
@@ -18,12 +18,13 @@ export default defineConfig([
       opts.jsx = 'automatic';
     },
   },
-  // Server-safe (no hooks) — no banner needed
+  // Server-safe bundles — no 'use client' banner, RSC tree-shaking friendly
   {
     entry: {
-      'index':           'src/index.ts',
-      'types/index':     'src/types/index.ts',
-      'tailwind.preset': 'src/tailwind.preset.ts',
+      'index':            'src/index.ts',
+      'article/index':    'src/article/index.ts',     // Prose, CodeBlock, Callout, etc. — pure RSC
+      'types/index':      'src/types/index.ts',
+      'tailwind.preset':  'src/tailwind.preset.ts',
     },
     format: ['esm'],
     dts: true,
