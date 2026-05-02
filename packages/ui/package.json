@@ -3,23 +3,43 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "sideEffects": ["**/*.css"],
+  "sideEffects": [
+    "**/*.css"
+  ],
   "exports": {
-    ".":              { "types": "./dist/index.d.ts",            "import": "./dist/index.js" },
-    "./components":   { "types": "./dist/components/index.d.ts", "import": "./dist/components/index.js" },
-    "./article":      { "types": "./dist/article/index.d.ts",    "import": "./dist/article/index.js" },
-    "./primitives":   { "types": "./dist/primitives/index.d.ts", "import": "./dist/primitives/index.js" },
-    "./types":        { "types": "./dist/types/index.d.ts",      "import": "./dist/types/index.js" },
-    "./styles/theme.css":   "./src/styles/theme.css",
-    "./styles/fonts.css":   "./src/styles/fonts.css",
-    "./tailwind-preset":    { "types": "./dist/tailwind.preset.d.ts", "import": "./dist/tailwind.preset.js" }
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./components": {
+      "types": "./dist/components/index.d.ts",
+      "import": "./dist/components/index.js"
+    },
+    "./article": {
+      "types": "./dist/article/index.d.ts",
+      "import": "./dist/article/index.js"
+    },
+    "./primitives": {
+      "types": "./dist/primitives/index.d.ts",
+      "import": "./dist/primitives/index.js"
+    },
+    "./types": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/types/index.js"
+    },
+    "./styles/theme.css": "./src/styles/theme.css",
+    "./styles/fonts.css": "./src/styles/fonts.css",
+    "./tailwind-preset": {
+      "types": "./dist/tailwind.preset.d.ts",
+      "import": "./dist/tailwind.preset.js"
+    }
   },
   "scripts": {
-    "build":     "tsup",
-    "dev":       "tsup --watch",
+    "build": "tsup",
+    "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
-    "test":      "vitest run",
-    "lint":      "echo 'no lint'"
+    "test": "vitest run",
+    "lint": "echo 'no lint'"
   },
   "peerDependencies": {
     "react": "^18.3.0",
@@ -27,18 +47,20 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
-    "tailwind-merge": "^3.0.0",
-    "zod": "^3.23.8",
     "lucide-react": "^0.487.0",
-    "react-syntax-highlighter": "^16.1.1"
+    "react-syntax-highlighter": "^16.1.1",
+    "tailwind-merge": "^3.0.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
     "@types/react-syntax-highlighter": "^15.5.13",
-    "tsup": "^8.3.0",
-    "typescript": "^5.6.0",
     "react": "^18.3.0",
-    "react-dom": "^18.3.0"
+    "react-dom": "^18.3.0",
+    "tailwindcss": "^4.1.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.0"
   }
 }
