@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: '關於',
   description: `關於 ${SITE.name}`,
   alternates: { canonical: '/about' },
-  openGraph: { images: ['/og/about.png'] },
+  // OG image inherited from app/opengraph-image.tsx
 };
 
 const ICON = { github: Github, linkedin: Linkedin, medium: BookOpen, mail: Mail };
