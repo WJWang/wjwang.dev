@@ -1,7 +1,8 @@
 import type { NavItem, SocialLink } from '@wjwang/ui/types';
 
 export const SITE = {
-  name: 'WJWang',
+  name: 'WJWang',                  // brand/person identifier (header logo, footer, author)
+  title: "WJWang's Blog",          // site title (browser tab, OG, RSS)
   domain: 'wjwang.dev',
   url: 'https://wjwang.dev',
   description: 'WJWang 的技術部落格',

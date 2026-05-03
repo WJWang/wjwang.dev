@@ -8,9 +8,9 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: { default: SITE.name, template: `%s | ${SITE.name}` },
+  title: { default: SITE.title, template: `%s | ${SITE.title}` },
   description: SITE.description,
-  openGraph: { siteName: SITE.name, type: 'website' },
+  openGraph: { siteName: SITE.title, type: 'website' },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

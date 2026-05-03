@@ -5,7 +5,7 @@ const SITE_URL = 'https://wjwang.dev';
 
 export function buildRss(items: ArticleListItem[]): string {
   const feed = new Feed({
-    title: 'WJWang',
+    title: "WJWang's Blog",
     description: 'WJWang 的技術部落格',
     id: `${SITE_URL}/`,
     link: `${SITE_URL}/`,
