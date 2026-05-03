@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const meta = findBySlug(slug);
   if (!meta) return {};
-  const og = meta.ogImage ?? meta.coverImage ?? '/og/default.png';
+  // og/twitter images are auto-set by ./opengraph-image.tsx (per-slug 1200x630 generated at build time)
   return {
     title: meta.title,
     description: meta.excerpt,
@@ -27,13 +27,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: meta.title,
       description: meta.excerpt,
       url: `${SITE.url}/articles/${meta.slug}`,
-      images: [og],
       type: 'article',
       publishedTime: meta.date,
       modifiedTime: meta.updatedAt ?? meta.date,
       tags: meta.tags,
     },
-    twitter: { card: 'summary_large_image', title: meta.title, description: meta.excerpt, images: [og] },
+    twitter: { card: 'summary_large_image', title: meta.title, description: meta.excerpt },
     alternates: { canonical: `/articles/${meta.slug}` },
   };
 }
