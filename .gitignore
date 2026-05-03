@@ -14,8 +14,12 @@ reference/
 # Git worktrees
 .worktrees/
 
-# Local scratch / screenshots / per-tool state
-tmp/
+# Per-tool state
+.claude/
+.playwright-mcp/
+
+# Root-level scratch screenshots (godaddy-*.png, mine-*.png, ref-*.png, search-*.png, mobile-*.png)
+/*.png
 
 # OS
 .DS_Store
