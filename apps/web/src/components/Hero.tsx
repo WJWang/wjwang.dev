@@ -1,7 +1,11 @@
+'use client';
+
 import { Search } from 'lucide-react';
 import { SITE } from '@/lib/site-config';
+import { useSearch } from './SearchCommand';
 
 export function Hero() {
+  const { setOpen } = useSearch();
   return (
     <section className="w-full py-16 md:py-24 relative overflow-hidden border-b border-border">
       {/* 3D Geometric Background with massive wireframes */}
@@ -144,15 +148,19 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Search Bar */}
-        <div className="mt-8 relative max-w-2xl">
-          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
-          <input
-            type="text"
-            placeholder="搜尋文章..."
-            className="w-full pl-12 pr-4 py-3 rounded-lg border border-border bg-card/50 backdrop-blur-sm focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-all"
-          />
-        </div>
+        {/* Search Bar — clicking opens cmd-K modal */}
+        <button
+          type="button"
+          onClick={() => setOpen(true)}
+          aria-label="開啟搜尋 (Cmd+K)"
+          className="mt-8 relative max-w-2xl w-full flex items-center pl-12 pr-4 py-3 rounded-lg border border-border bg-card/50 backdrop-blur-sm hover:border-primary focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-all text-left text-muted-foreground"
+        >
+          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5" />
+          搜尋文章...
+          <span className="ml-auto hidden md:inline-flex items-center gap-1 text-xs px-1.5 py-0.5 rounded border border-border bg-background/40">
+            ⌘K
+          </span>
+        </button>
       </div>
     </section>
   );
