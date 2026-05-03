@@ -76,7 +76,19 @@ export function SearchCommand() {
   }, [open, entries]);
 
   const fuse = useMemo(
-    () => (entries ? new Fuse(entries, { threshold: 0.3, keys: ['title', 'excerpt', 'tags'] }) : null),
+    () =>
+      entries
+        ? new Fuse(entries, {
+            threshold: 0.2,
+            ignoreLocation: true,
+            minMatchCharLength: 2,
+            keys: [
+              { name: 'title', weight: 3 },
+              { name: 'tags', weight: 2 },
+              { name: 'excerpt', weight: 1 },
+            ],
+          })
+        : null,
     [entries],
   );
 
