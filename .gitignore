@@ -18,8 +18,8 @@ reference/
 .claude/
 .playwright-mcp/
 
-# Root-level scratch screenshots (godaddy-*.png, mine-*.png, ref-*.png, search-*.png, mobile-*.png)
-/*.png
+# Local scratch dir
+tmp/
 
 # OS
 .DS_Store
