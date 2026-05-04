@@ -81,15 +81,39 @@ export default function Content() {
       </p>
 
       <p>
-        員工那邊也很懂得替自己的能動性找命名。最近最熱的詞，叫做「<strong>AI 時代的一人公司</strong>」 — LinkedIn 的 thought leader、Medium 的勵志文、矽谷返台的 podcast 創業家、書店暢銷榜的封面，都在告訴你：AI 已經把每個人變成超人，一個人加上幾隻 agent，就可以做完過去三十人團隊的事。
+        員工那邊也很懂得替自己的能動性找命名。最近最熱的詞，叫做「<strong>AI 時代的一人公司</strong>」 —
+        英文圈早就把它縮寫成 <strong>OPC（One Person Company）</strong>。
+        新縮寫一誕生，就代表這個族群已經完成命名儀式、可以開始開大會、上《哈佛商業評論》、被 Gartner 排進 quadrant 了。
+      </p>
+
+      <p>
+        論述的彈藥也已經備好。社群上的招牌動員口號是「下一個十年屬於一人公司的時代，已經徹底來了」、底下會配一張裝備清單告訴你 Claude 一個月二十美元、Supabase 免費、再加上幾隻 open source 的 agent — 傳統創業的遊戲規則「已經被砸得稀碎」；
+        同一個族群裡也有人把整套 agent 系統二十四小時掛在自家客廳的 Mac mini 上，連 Telegram、連 Discord、跑 cron、開 sub-agent、自己讀寫 memory，一個人在沙發背後默默監督一隊不會請假、不會抱怨、也不會跟 HR 哭訴的 digital labor。底下永遠一片「這就是未來」。
+      </p>
+
+      <p>光是社群這一層，倒也還好 — 命名運動本來就需要群眾基底。真正棘手的是，這一波連業界頂層也親自下場背書。</p>
+
+      <p>
+        <strong>Andrej Karpathy</strong>（OpenAI 創始成員、Tesla 前 AI 總監那位）公開講過一句話：「我大概從十二月開始，就沒打過一行程式碼了。」
+        翻譯一下，意思就是：以前我是世界級的 ML 工程師，現在我<strong>連工程師都不是了</strong> — 我是 agent 的甲方。
+      </p>
+
+      <p>
+        <strong>Garry Tan</strong>（Y Combinator 的 CEO）不只認證 Karpathy，還親自開源一個叫 <strong>gstack</strong> 的 Claude Code 設定包當示範。
+        截至發稿 66K stars、MIT license，二十三個 slash command 一字排開：你的 CEO、你的設計師、你的工程經理、你的 release manager、你的 QA、你的安全官、你的文件工程師 — 全部都是 markdown 檔案。
+        Tan 順手附上自己的 metric 佐證 — 他 2026 年的 logical lines of code，是 2013 年的 <strong>810 倍</strong>（11,417 比 14），同時還在全職經營 YC。
+      </p>
+
+      <p>翻譯一下 — 全世界最有名的早期投資人，現在不寫程式；但他「不寫程式時的產出」，比他十年前認真寫程式的時候，還多 810 倍。</p>
+
+      <p>
+        這套敘事員工愛看。員工讀到的是 — 「我可以飛了」。
         你是 CEO、CTO、CMO、CFO，全是你自己；你的 daily standup 是你跟 ChatGPT 在通勤捷運上的對話；你的 OKR 是昨晚失眠時跟 Claude 排好的；你的離職面談是你跟你自己的深度檢討；你的尾牙抽獎是你自己跟自己猜拳。
       </p>
 
-      <p>這個敘事員工愛看。員工讀到的是 — 「我可以飛了」。</p>
-
       <p>但同一篇文章，老闆也在看。老闆讀到的是 — 「原來這三十個員工，理論上一個人就能做完，那我現在每個月發薪水給這三十個是何苦」？</p>
 
-      <p>同一份文章。員工看到的是降落傘，老闆看到的是 Excel 上被標綠的格子 — 那些格子裡，是員工的名字。</p>
+      <p>同一份文章。員工看到的是降落傘，老闆看到的是 — 三十封還沒寄出的「感謝您過去的貢獻」資遣信。</p>
 
       <p>
         員工焦慮自己跟不上 AI、老闆焦慮自己壓不住員工。中間賣治理工具的人 — 跟 2000 年的 Y2K 顧問、2018 年的 GDPR 律師、2020 年的雲端遷移顧問，是同一批人。
@@ -155,7 +179,7 @@ export default function Content() {
 
       <blockquote>
         <em>
-          本篇引用：Engelbart (1968) "Mother of All Demos"、Don Norman《The Design of Everyday Things》、Apple HIG、Google Material Design
+          本篇引用：Engelbart (1968) "Mother of All Demos"、Don Norman《The Design of Everyday Things》、Apple HIG、Google Material Design、Andrej Karpathy 公開發言、Garry Tan《gstack》(github.com/garrytan/gstack)
         </em>
       </blockquote>
     </Prose>
