@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "tsx scripts/dev.ts",
-    "build": "pnpm build:articles && pnpm -r build",
+    "build": "pnpm --filter @wjwang/ui build && pnpm build:articles && pnpm --filter web build",
     "preview": "pnpm --filter web exec serve out -p 3000 -L",
     "build:articles": "tsx scripts/build-articles.ts",
     "new:article": "tsx scripts/new-article.ts",
