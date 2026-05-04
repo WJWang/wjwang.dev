@@ -19,7 +19,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const meta = findBySlug(slug);
   if (!meta) return {};
-  // og/twitter images are auto-set by ./opengraph-image.tsx (per-slug 1200x630 generated at build time)
+  // Point at the .png-suffixed copy (mirrored by scripts/postbuild-og.ts) so
+  // GitHub Pages serves it as image/png. Without the extension, GH Pages serves
+  // application/octet-stream and Facebook refuses to render the OG card.
+  const ogUrl = `${SITE.url}/articles/${meta.slug}/opengraph-image.png`;
   return {
     title: meta.title,
     description: meta.excerpt,
@@ -31,8 +34,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       publishedTime: meta.date,
       modifiedTime: meta.updatedAt ?? meta.date,
       tags: meta.tags,
+      images: [{ url: ogUrl, width: 1200, height: 630, alt: meta.title, type: 'image/png' }],
     },
-    twitter: { card: 'summary_large_image', title: meta.title, description: meta.excerpt },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.excerpt,
+      images: [ogUrl],
+    },
     alternates: { canonical: `/articles/${meta.slug}` },
   };
 }
