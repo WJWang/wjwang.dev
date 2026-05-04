@@ -31,11 +31,11 @@ export default function AboutPage() {
 
       <Prose>
         <p>
-          歡迎來到我的部落格。這裡會記錄我在軟體工程、系統設計與工具實踐的學習筆記。
+          寫過幾篇 paper 之後就再也沒寫過的人、2020 那段時間幫忙寫了一點不重要的 code、教過幾個大學生 K8S（不確定他們有沒有真學會）、永遠的 Hacker News 沉默讀者。
         </p>
+        <p>開會專業戶、深夜碼農、什麼端都寫一點的人。</p>
         <p>
-          技術棧主要圍繞 React、TypeScript、Node.js，以及一些雲端與基礎設施議題。
-          也會有對 LLM workflow 與 dev productivity 的觀察與實驗。
+          淺度學習工程師、小數據分析師、Full Stuck Engineer、工人智慧研究員、LLM 馴獸師、Agent 代孕經理。
         </p>
       </Prose>
 
