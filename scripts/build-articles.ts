@@ -9,7 +9,7 @@ import { enrichToListItem } from './lib/enrich.js';
 import { renderManifest } from './lib/emit-manifest.js';
 import { buildSearchIndex } from './lib/emit-search-index.js';
 import { buildRss } from './lib/emit-rss.js';
-import { mirrorAssets, mirrorFile } from './lib/mirror-assets.js';
+import { mirrorAssets } from './lib/mirror-assets.js';
 import type { ArticleListItem } from '@wjwang/ui/types';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -60,8 +60,6 @@ export async function buildArticles(): Promise<{ count: number; drafts: number }
       toAssetsDir: join(publicDir, 'articles', d.slug, 'assets'),
     })),
   );
-
-  await mirrorFile(join(ROOT, 'CNAME'), join(publicDir, 'CNAME'));
 
   await writeFile(join(publicDir, 'rss.xml'), buildRss(enriched));
 
