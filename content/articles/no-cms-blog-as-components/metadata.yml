@@ -1,0 +1,10 @@
+title: CMS 之死：自架部落格的下一站，是把那層中介也拆了
+excerpt: 過去十五年「內容跟版型要分開」這個假設，在 LLM 上場之後整層崩了。從 wjwang.dev 到 asgard-slides，兩個 repo 示範同一招——每篇文章/每張投影片是一個 React Component，作者只寫 markdown 或 outline，剩下交給 LLM、CI、GitHub Pages。
+date: 2026-05-06
+tags:
+  - LLM
+  - Architecture
+  - DX
+
+category: Architecture
+featured: true
