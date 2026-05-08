@@ -6,7 +6,7 @@ import { articles } from '@/lib/articles';
 
 export default function HomePage() {
   const featured = articles.find((a) => a.featured);
-  const latest = articles.filter((a) => !a.featured).slice(0, 6);
+  const latest = articles.filter((a) => a.slug !== featured?.slug).slice(0, 6);
 
   return (
     <>
