@@ -5,15 +5,17 @@ export interface ImageFigureProps {
   alt?: string;
   caption?: string;
   ratio?: '16/9' | '4/3' | '1/1' | string;
+  maxWidth?: string;
 }
 
-export function ImageFigure({ src, alt = '', caption, ratio }: ImageFigureProps) {
-  const style = ratio ? { aspectRatio: ratio } : undefined;
+export function ImageFigure({ src, alt = '', caption, ratio, maxWidth }: ImageFigureProps) {
+  const wrapperStyle = ratio ? { aspectRatio: ratio } : undefined;
+  const figureStyle = maxWidth ? { maxWidth } : undefined;
   return (
-    <figure className="my-6">
+    <figure className={cn('my-6', maxWidth && 'mx-auto')} style={figureStyle}>
       <div
         className={cn('overflow-hidden rounded-lg border border-border bg-card', ratio && 'w-full')}
-        style={style}
+        style={wrapperStyle}
       >
         <img
           src={src}

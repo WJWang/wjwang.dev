@@ -25,6 +25,10 @@ export function Prose({ children, size = 'base', className }: ProseProps) {
         '[&_hr]:my-8 [&_hr]:border-border',
         '[&_strong]:font-semibold',
         '[&_code]:px-1.5 [&_code]:py-0.5 [&_code]:rounded [&_code]:bg-secondary [&_code]:text-sm',
+        '[&_table]:my-6 [&_table]:w-full [&_table]:border-collapse [&_table]:border [&_table]:border-border [&_table]:text-sm',
+        '[&_thead]:bg-secondary',
+        '[&_th]:border [&_th]:border-border [&_th]:px-3 [&_th]:py-2 [&_th]:text-left [&_th]:font-semibold',
+        '[&_td]:border [&_td]:border-border [&_td]:px-3 [&_td]:py-2 [&_td]:align-top',
         className,
       )}
     >
