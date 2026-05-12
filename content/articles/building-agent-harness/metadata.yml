@@ -1,0 +1,10 @@
+title: 深入 Agent Harness：概念解析與實作指南
+excerpt: Agent Client、Agent Harness 是同一回事的兩個命名——後者更貼近實際的工程內容：包覆 LLM 推理 loop 的 runtime orchestration layer。本文拆解 Agent Harness 的五層架構、五個核心元件，並用一份可運行的 Python 範例把概念對應到程式碼。
+date: 2026-05-12
+tags:
+  - Agent
+  - Architecture
+  - Tutorial
+
+category: Architecture
+featured: false
