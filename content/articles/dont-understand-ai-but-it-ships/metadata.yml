@@ -1,0 +1,10 @@
+title: 不懂 infra，也不懂 AI，可是事情做完了：一座薛丁格機房的故事
+excerpt: 一位設計師用 Claude Code 在公司正式環境 AWS 開了一整套基礎設施，自己卻講不出來開了什麼。他不懂 infra、也不懂那個替他幹活的 AI——可是 staging 跑起來了。當「你得先會」這道閘門被 agent 拆掉，一座同時存在又不存在的薛丁格機房，暴露的東西比災難更值得想。
+date: 2026-05-24
+tags:
+  - Agent
+  - DevOps
+  - Industry
+
+category: Architecture
+featured: false
